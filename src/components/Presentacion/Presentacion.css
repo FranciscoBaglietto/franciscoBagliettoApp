@@ -1,3 +1,32 @@
-.hola{
-    background-color: red;
+.presentacion {
+  display: flex;
+  background-color: black;
+}
+
+.presentacion-titulos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.titulos {
+  margin: 10px;
+}
+.titulos-top {
+  font-size: 3rem;
+  color: white;
+}
+.titulos-abajo {
+  font-size: 2rem;
+  color: white;
+}
+.presentacion__listas {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.presentacion__listas-link a {
+  text-decoration: none;
+  background-color: #bbed2f;
+  padding: .5rem;
+  border-radius: 8px;
 }
